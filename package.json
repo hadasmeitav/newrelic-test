@@ -1,0 +1,19 @@
+{
+  "name": "bundle-newrelic-test",
+  "version": "0.0.48",
+  "description": "",
+  "main": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && yarn run webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "webpack": "4.28.2",
+    "webpack-cli": "3.1.2",
+    "newrelic": "6.4.2",
+    "express": "4.16.3"
+  },
+  "license": "MIT"
+}
