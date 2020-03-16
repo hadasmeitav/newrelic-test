@@ -1,9 +1,11 @@
+const path = require('path');
+
 module.exports = {
     entry: './app.js',
     target: 'node',
     output: {
-        path: __dirname,
-        filename: 'bundle.js'
+        path: path.resolve('./dist'),
+        filename: 'release.js',
     },
     externals: {
         newrelic: 'newrelic'
