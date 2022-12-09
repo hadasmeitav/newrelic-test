@@ -13,7 +13,7 @@
     "webpack": "4.28.2",
     "webpack-cli": "3.1.2",
     "newrelic": "6.4.2",
-    "express": "4.16.3"
+    "express": "4.17.3"
   },
   "license": "MIT"
 }
